@@ -11,3 +11,7 @@ function calculateAverage (arr:number[]):number{
 }
 
 console.log(calculateAverage([2,3,4,5,6]))
+
+2+3+4+5+6
+
+20/5
