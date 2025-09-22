@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button id="myButton">Click me</button>
+  <p id="myParagraph">Hello!</p>
+  <script>
+    const button = document.querySelector('#myButton');
+    const paragraph = document.querySelector('#myParagraph');
+    button.addEventListener('click', () => {
+      paragraph.textContent = 'Button was clicked!';
+    });
+  </script>
+</body>
