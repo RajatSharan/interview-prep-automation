@@ -7,7 +7,7 @@ function areAnagrams(str1: string,str2:string):boolean{
     let str12 =str2.toLowerCase().replace("/[\W_]/g",'')
      let sortedStr2 = str12.split('').sort().join('')
 
-    return sortedStr1 === sortedStr2
+    return sortedStr1 === sortedStr2 
 
 }
 
